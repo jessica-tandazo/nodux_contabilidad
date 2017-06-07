@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_contabilidad *.css
+recursive-include nodux_contabilidad *.csv
+recursive-include nodux_contabilidad *.html
+recursive-include nodux_contabilidad *.ico
+recursive-include nodux_contabilidad *.js
+recursive-include nodux_contabilidad *.json
+recursive-include nodux_contabilidad *.md
+recursive-include nodux_contabilidad *.png
+recursive-include nodux_contabilidad *.py
+recursive-include nodux_contabilidad *.svg
+recursive-include nodux_contabilidad *.txt
+recursive-exclude nodux_contabilidad *.pyc
